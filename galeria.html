@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Furros del Norte</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-left">
+            <img src="logo-furros.png" alt="Logo Furros del Norte" class="header-logo">
+            <h1>Furros del Norte</h1>
+        </div>
+        <nav class="main-nav">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="#">Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content-area">
+        <section class="content-section card-style">
+            <h2>Nuestra Galería Completa</h2>
+            <p>Un vistazo a nuestros momentos, eventos y arte. ¡Disfruten de la colección!</p>
+
+            <div class="carousel-container main-gallery-carousel">
+                <div class="carousel-track">
+                    <img src="https://via.placeholder.com/800x500/E7DDC8/333333?text=Foto+Galeria+1" alt="Foto de Galería 1" class="carousel-image">
+                    <img src="https://via.placeholder.com/800x500/E7DDC8/333333?text=Foto+Galeria+2" alt="Foto de Galería 2" class="carousel-image">
+                    <img src="https://via.placeholder.com/800x500/E7DDC8/333333?text=Foto+Galeria+3" alt="Foto de Galería 3" class="carousel-image">
+                    <img src="https://via.placeholder.com/800x500/E7DDC8/333333?text=Foto+Galeria+4" alt="Foto de Galería 4" class="carousel-image">
+                    <img src="https://via.placeholder.com/800x500/E7DDC8/333333?text=Foto+Galeria+5" alt="Foto de Galería 5" class="carousel-image">
+                    <img src="https://via.placeholder.com/800x500/E7DDC8/333333?text=Foto+Galeria+6" alt="Foto de Galería 6" class="carousel-image">
+                </div>
+                <button class="carousel-button prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-button next"><i class="fas fa-chevron-right"></i></button>
+                <div class="carousel-dots"></div>
+            </div>
+
+            <div class="thumbnail-grid">
+                <img src="https://via.placeholder.com/150x100/E7DDC8/333333?text=Mini+1" data-index="0" class="thumbnail active">
+                <img src="https://via.placeholder.com/150x100/E7DDC8/333333?text=Mini+2" data-index="1" class="thumbnail">
+                <img src="https://via.placeholder.com/150x100/E7DDC8/333333?text=Mini+3" data-index="2" class="thumbnail">
+                <img src="https://via.placeholder.com/150x100/E7DDC8/333333?text=Mini+4" data-index="3" class="thumbnail">
+                <img src="https://via.placeholder.com/150x100/E7DDC8/333333?text=Mini+5" data-index="4" class="thumbnail">
+                <img src="https://via.placeholder.com/150x100/E7DDC8/333333?text=Mini+6" data-index="5" class="thumbnail">
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Furros del Norte. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

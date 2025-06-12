@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Furros del Norte</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-left">
+            <img src="logo-furros.png" alt="Logo Furros del Norte" class="header-logo">
+            <h1>Furros del Norte</h1>
+        </div>
+        <nav class="main-nav">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="#">Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content-area">
+        <section class="featured-card-section">
+            <div class="featured-card">
+                <div class="card-status">
+                    <span class="status-indicator"></span> Últimas Noticias
+                </div>
+                <h2>Convocatoria partido contra Lardatz</h2>
+                <p>Preparaos para vuestro próximo encuentro épico. Habrá actividades, concursos y mucha diversión. ¡No se lo pierdan!</p>
+                <img src="https://via.placeholder.com/600x300/E7DDC8/333333?text=Evento+Destacado" alt="Imagen del evento destacado" class="card-image">
+                <a href="#" class="card-button">Ver Detalles del Evento</a>
+            </div>
+        </section>
+
+        <section class="content-section card-style">
+            <h2>¿Quiénes Somos?</h2>
+            <p>Somos un grupo de amigos apasionados por la cultura furro, unidos por la camaradería y el deseo de compartir experiencias. Desde nuestras reuniones locales hasta nuestros proyectos creativos, siempre buscamos expandir nuestra comunidad y nuestra creatividad.</p>
+            <img src="https://via.placeholder.com/600x300/E7DDC8/333333?text=Nuestra+Comunidad" alt="Nuestra Comunidad" class="section-image">
+        </section>
+
+        <section class="content-section card-style">
+            <h2>Galería Destacada</h2>
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <img src="https://via.placeholder.com/400x300/E7DDC8/333333?text=Foto+1" alt="Foto destacada 1" class="carousel-image">
+                    <img src="https://via.placeholder.com/400x300/E7DDC8/333333?text=Foto+2" alt="Foto destacada 2" class="carousel-image">
+                    <img src="https://via.placeholder.com/400x300/E7DDC8/333333?text=Foto+3" alt="Foto destacada 3" class="carousel-image">
+                    <img src="https://via.placeholder.com/400x300/E7DDC8/333333?text=Foto+4" alt="Foto destacada 4" class="carousel-image">
+                </div>
+                <button class="carousel-button prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-button next"><i class="fas fa-chevron-right"></i></button>
+                <div class="carousel-dots"></div>
+            </div>
+            <a href="galeria.html" class="cta-button secondary">Ver la Galería Completa</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Furros del Norte. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
